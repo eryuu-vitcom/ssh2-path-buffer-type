@@ -4,4 +4,12 @@
 ## CHANGES
 This repository was customized specifically for a EUC-KR locale.
 
-- ReadStream and WriteStream parameter _path_ was modified to accept EUC-KR encoded _Buffer_ instead of _string_
+- Functions below were modified to accept EUC-KR encoded ```Buffer``` instead of ```string```
+  - lib/protocol/SFTP.js :
+    1. createReadStream
+    1. createWriteStream
+    1. stat
+    1. mkdir
+    1. rmdir
+    1. rename
+    1. unlink
