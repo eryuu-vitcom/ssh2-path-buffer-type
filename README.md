@@ -13,3 +13,5 @@ This repository was customized specifically for a EUC-KR locale.
     1. rmdir
     1. rename
     1. unlink
+    1. opendir
+    1. [RESPONSE.NAME]
